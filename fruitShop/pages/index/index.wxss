@@ -1,0 +1,131 @@
+/**index.wxss**/
+/* .container{
+  border:1px solid red;
+} */
+.slider,.slider swiper,slider image{
+  height:450rpx;
+  width:100%;
+}
+.cc{
+  width:100%;
+  height:120rpx;
+  margin-top:10rpx;
+  border:1px solid #eee;
+}
+.person-line{
+  width: 6%;
+  height: 4rpx;
+  background: lightgray;
+ margin-left:161rpx;
+  margin-top:10rpx;
+}
+.person-line1 {
+ width:6%;
+height:4rpx;
+background:lightgray;
+margin-left:474rpx;
+margin-top:4rpx;
+
+}
+.cc-text{
+left:272rpx;
+top:35rpx;
+position:relative;
+color:rgb(107, 98, 98);
+font-size:13px;
+}
+/*鲜豌豆*/
+.jd-text{
+  font-size: 12px;
+  color: #666;
+}
+.jd-text .p1{
+   margin-bottom: 20rpx;
+}
+.jd-text-wr{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 20rpx
+}
+/* 横向滑动条图样式 */
+.jd-huadongtiao{
+width: 100%;
+background-color: #fff;
+}
+.jd-image-group{
+  display: flex;
+  white-space: nowrap;
+  margin-bottom: 25rpx;
+}
+.jd-image-group image{
+  width: 250rpx;
+  height: 280rpx;
+  border-bottom: 1rpx solid #ddd;
+}
+.jd-image-group .jd-image-div{
+  width: 250rpx;
+  height: 400rpx;
+  text-align: center;
+  display: inline-block;
+  margin-top: 25rpx;
+  border: 1rpx solid #ddd;
+}
+/* 水果展示 */
+/*无花果*/
+.wd{
+  display:flex; /*弹性布局*/
+ flex-wrap: wrap; /*换行*/
+}
+.wd-wraper{
+  width:48%;  /*商品元素*/
+  height:450rpx;   /*商品高度*/
+  box-sizing:border-box; 
+  display:flex;    /*父元素 img text*/ 
+  flex-direction: column; /*img text案列排放*/
+  justify-content: center; /*居中水平*/
+  align-items: center; /*垂直*/
+  font-size:14px;
+}
+.wd-wraper image{
+  border: 1rpx solid #ddd;
+  width: 320rpx;
+  height: 320rpx;
+}
+.wd-text{
+  font-size:16px;
+  color: #666;
+}
+/*搜索*/
+.ss{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ss input{
+  width: 600rpx;
+  border-radius: 30rpx;
+  background: #ddd;
+  font-size: 14px;
+  color: #ccc;
+  padding-left:50rpx; 
+}
+
+.last{
+  border-top:1rpx solid #ccc;
+  margin-top:30rpx;
+  padding-top:40rpx;
+}
+.last-in{
+  width:350rpx;
+  border:1px solid #ccc;
+  border-radius: 50rpx;
+  margin-left:30%;
+}
+.last-in image{
+   height:50rpx;
+   width:50rpx;
+   padding-right: 20rpx;
+}

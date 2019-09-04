@@ -1,0 +1,86 @@
+/* pages/kefu/kefu.wxss */
+
+.dt{
+ width:100%;
+ height:390rpx;
+ margin-top:-54rpx;
+}
+.dt.image{
+  width:100%;
+  height:500rpx;
+}
+.cc{
+ margin-left:24%;
+ font-size: 16px;
+ float:left;
+ color:#faa;
+ margin-top:60px;
+}
+/*电话  */
+.map{
+ display:flex;
+ justify-content: space-around;
+ padding:0;
+ margin-top: 90px;
+}
+.map button{
+ color:#fff;
+ background-color:#F4BA32;
+ font-size:16px;
+ display: flex;
+ align-items:center;
+ padding:40 0rpx;
+ width:47%;
+ height:100rpx;
+ margin-top:25px;
+ margin-left:70px;
+}
+.map image{
+ width:40rpx;
+ height:40rpx;
+ padding-left:58rpx;
+ margin-top:3px;
+}
+/*动画*/
+/*mask*/
+.drawer_screen {
+width: 100%;
+height: 100%;
+position: fixed;
+top: 0;
+left: 0;
+z-index: 1;
+background: #F4BA32;
+opacity: 0.1;
+overflow: hidden;
+}
+/*content*/
+.drawer_attr_box {
+width: 100%;
+overflow: hidden;
+position: fixed;
+bottom: 0;
+left: 0;
+z-index: 1001;
+background: #fff;
+}
+.drawer_content {
+padding: 20rpx 40rpx;
+height: 185rpx;
+overflow-y: scroll;
+}
+.drawer_title{
+padding:20rpx;
+font:42rpx "microsoft yahei";
+text-align: center;
+}
+.line{
+border-bottom: 1px solid #f8f8f8;
+}
+.dd{
+ margin-left:61%;
+ float:left;
+ color:#faa;
+ margin-top:-44px;
+ width:119px;
+}

@@ -1,0 +1,132 @@
+/* pages/wode/wode.wxss */
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #eb3477;
+   width: 100%; 
+  height: 300rpx;
+}
+.userinfo-btn{
+  margin-top: 50rpx;
+  background: none !important;
+  color: #fff !important;
+  font-size: 40rpx;
+}
+.account-bg {
+  width: 100%;
+  height: 150rpx;
+}
+.userinfo-avatar {
+  width: 108rpx;
+  height: 108rpx;
+  margin: 40rpx;
+  border-radius: 50%;
+}
+.userinfo-nickname {
+  color: #fff;
+}
+/* 订单 */
+.order {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 90rpx;
+}
+.myorder-text {
+  font-size: 34rpx;
+  color: gray;
+  margin: 20rpx;
+  width: 38%;
+}
+.myorderlook-text {
+  font-size: 32rpx;
+  color: gray;
+  position: relative;
+  right: 25rpx;
+  width: 58%;
+  text-align: right;
+}
+ .nav-item{
+ display:flex;
+ flex-direction: row;
+ align-items:center;
+ width:100%;
+ height:90rpx;
+}
+.navs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 90rpx;
+}
+ .tp .nav-image1 {
+  width: 66rpx;
+  height: 66rpx;
+  left:81rpx;
+} 
+.tp .nav-image2 {
+  width: 86rpx;
+  height: 80rpx;
+  left:233rpx;
+} 
+.tp .nav-image3 {
+  width: 80rpx;
+  height: 80rpx;
+  left:387rpx;
+} 
+.tp .nav{
+   position:relative;
+   margin: 5rpx;
+}
+.navs text.a {
+  width:25%;
+  left:71rpx;
+  margin:0;
+}
+.navs  text.b{
+  width:25%;
+  right:-13rpx;
+  text-align:right;
+}
+.navs text.c{
+  width:20%;
+  right:-115rpx;
+  text-align:right;
+}
+.navs .con{
+   font-size: 32rpx;
+  color: gray;
+  position:relative;
+  
+}
+/* 列表 */
+.person-list {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 110rpx;
+}
+.item-image {
+  width: 40rpx;
+  height: 40rpx;
+  margin: 20rpx;
+}
+.item-text {
+  color: gray;
+  font-size: 30rpx;
+  margin-left: 20rpx;
+}
+.person-line {
+  width: 80%;
+  height: 4rpx;
+  background: lightgray;
+  margin-left: 90rpx;
+}

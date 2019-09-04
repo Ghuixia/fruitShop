@@ -1,0 +1,50 @@
+<view class="userinfo">
+  <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="userinfo-btn"> 点击微信授权 </button>
+  <block wx:else>
+    <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </block>
+</view>
+<view class="separate"></view>
+<view class="order" catchtap="toOrder">
+  <text class="myorder-text">个人中心</text>
+  <text class="myorderlook-text" bindtap='ff'>查看全部订单</text>
+</view>
+<view class="line"></view>
+
+<view class='nav-item' catchtap='toOrder'>
+<view catchtap=''class='tp'>
+<image src='/pages/tabs/self/personal_pay.png' class='nav-image1 nav' bindtap='f1'></image></view>
+<view catchtap='g' class='tp'>
+<image src='/pages/tabs/self/personal_send.png' class='nav-image2 nav' bindtap='f2'></image></view>
+<view catchtap='g' class='tp'>
+<image src='/pages/tabs/self/personal_receipt.png' class='nav-image3 nav' bindtap='f3'></image></view>
+</view>
+<view class='navs'>
+<text class='a con'>待支付</text>
+<text class='b con'>待发货</text>
+<text class='c con'>我的收藏</text>
+</view>
+<view class="separate"></view>
+<view class="person-list">
+  <view class="list-item">
+    <image class="item-image" src="/pages/tabs/self/personal_card.png"></image>
+    <text class="item-text" bindtap='gc'>我的购物车</text>
+  </view>
+  <view class="person-line"></view>
+  <view class="list-item">
+    <image class="item-image" src="/pages/tabs/self/personal_site.png"></image>
+    <text class="item-text" bindtap="myAddress" bindtap='cc'>收货地址</text>
+  </view>
+  <view class="person-line"></view>
+  <view class="list-item">
+    <image class="item-image" src="/pages/tabs/self/personal_evaluated.png"></image>
+    <text class="item-text" bindtap="kefu">客服中心</text>
+  </view>
+  <view class="person-line"></view>
+  <view class="list-item">
+    <image class="item-image" src="/pages/tabs/self/personal_customer.png"></image>
+    <text class="item-text" bindtap='fh'>返回首页</text>
+  </view>
+</view>
+<view class="separate"></view>
